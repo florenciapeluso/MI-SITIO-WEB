@@ -1,0 +1,177 @@
+body {
+  font-family: monospace, bold;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  text-align: center; 
+
+}
+
+
+#main-header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#sobre-mi {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.experiencia {
+ margin-top: 40px;
+ margin-bottom: 40px;
+}
+
+
+
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.experienciaimg {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 40px;
+
+ 
+}
+
+
+.contacto {
+  background-color: #333;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.boton{
+  background-color: #7574FC;
+  color:white;
+  border-radius: 100px;
+  margin: 20px 2px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: monospace;
+  padding: 5px 15px;
+}
+
+.botonvermas {
+  background-color: #000000;
+  color:white;
+  border-radius: 100px;
+  border-color: black;
+  margin: 20px 2px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: monospace;
+  padding: 5px 15px;
+}
+
+.boton:hover {
+  background-color:white; 
+  transform: scale(1.05); 
+  color:#7574FC
+}
+
+.botonvermas:hover {
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  border-radius: 100px;
+  border-color: black;
+  margin: 20px 2px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: monospace;
+  padding: 5px 15px;
+}
+.carousel {
+  max-width: 400px; 
+  margin: auto; 
+}
+
+.img-exp-img-fluid {
+  max-width: 300px; /* Ajusta el ancho máximo según tus necesidades */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+
+@media only screen and (max-width: 991.98px) { 
+ 
+}
+
+@media only screen and (max-width: 767.98px) { 
+
+  #main-header {
+  font-size: 70px;
+   padding-top: 70px;
+
+  }
+  #sobre-mi h1{
+    font-size: 60px;
+  }
+
+  #sobre-mi p{
+    font-size: 40px;
+  }
+
+  .experiencia h1{
+    font-size: 60px;
+  }
+
+  .experiencia p{
+    font-size: 30px;
+  }
+
+  .boton{
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+
+  
+  .botonvermas{
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+
+  .img {
+    width: 300px;
+  }
+
+  .contacto h2{
+    font-size: 60px;
+  }
+
+  .contacto p{
+    font-size: 30px;
+  }
+}
+ 
+@media only screen and (max-width: 575.98px) { 
+
+  .boton{
+    font-size: 40px;
+    
+  }
+  
+}
+
+
+
+
+
+
+
+
